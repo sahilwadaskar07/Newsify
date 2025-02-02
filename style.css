@@ -129,6 +129,24 @@ nav {
 }
 }
 
+@media(max-width : 375px) {
+    .search-container {
+        display: flex;
+    }
+
+    .navbar .logo {
+        font-size: 1.8rem;
+    }
+
+    input {
+        width: 135px;
+        padding: 10px 10px;
+        
+    }
+
+    
+}
+
 
 .tweet-metrics {
     display: flex;
